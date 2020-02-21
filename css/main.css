@@ -88,6 +88,10 @@ a, a:focus, a:hover {
   outline: 0;
 }
 
+li.menu-active a {
+  color: #49e4fa;
+}
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -4168,3 +4172,14 @@ body.mobile-nav-active #mobile-nav-toggle {
                End Blog Details  Page style
 ################
 */
+
+table a {
+  display:block;
+  text-decoration:none;
+}
+
+tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
